@@ -5,7 +5,7 @@ var loc = win.location;
 var M = win.Sai;
 
 var detector = require("detector");
-var Events = require("evt");
+var Events = require("min-evt");
 
 // 避免未引用先行脚本抛出异常。
 if(!M){M = {};}

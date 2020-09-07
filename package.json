@@ -12,29 +12,15 @@
     "url": "https://github.com/saijs/sai.js.git"
   },
   "bugs": "https://github.com/saijs/sai.js/issues",
-  "keywords": ["monitor", "error", "exception"],
-  "devDependencies": {
-    "gulp": "3.8.6",
-    "gulp-uglify": "0.3.1",
-    "gulp-jsbeautify": "0.1.1",
-    "gulp-concat": "2.3.3",
-    "gulp-replace": "0.4.0",
-    "gulp-zip": "0.4.0",
-    "del": "0.1.1"
+  "keywords": [
+    "monitor",
+    "error",
+    "exception"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "detector": "^2.5.0",
+    "min-evt": "^0.2.2"
   },
-  "licenses": "MIT",
-  "spm": {
-    "main": "sai.js",
-    "dependencies": {
-      "detector": "2.0.1",
-      "evt": "0.2.2"
-    },
-    "devDependencies": {
-      "jquery": "1.7.2",
-      "imagic": "1.1.0",
-      "url": "1.2.0",
-      "expect.js": "0.3.1"
-    },
-    "tests": "tests/*-spec.js"
-  }
+  "licenses": "MIT"
 }
